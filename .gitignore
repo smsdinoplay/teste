@@ -3,3 +3,4 @@
 *.DS_Store
 teste-gitignore.txt
 .env
+pasta-que-nao-quero
