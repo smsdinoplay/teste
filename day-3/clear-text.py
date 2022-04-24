@@ -27,7 +27,11 @@ def clean_text(string):
     string = string.replace(" ", "")
     
     string = string.replace("\r", "")
+    
+    # remove breaklines
     string = string.replace("\n", "")
+    
+    # remove stripes (*) string
     string = string.strip().lower()
 
     return string 
